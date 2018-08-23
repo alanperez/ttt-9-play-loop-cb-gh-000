@@ -36,9 +36,6 @@ def turn(board)
 end
 
 # Define your play method below
-
-
-
 def play(board)
   until position_taken?(board, 8) == true
     turn(board)
